@@ -1,0 +1,51 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "abfallkalender",
+	"title": "Abfallkalender",
+	"authorName": "Marc",
+	"authorGithub": "Auguschd",
+	"authorEmail": "maugustin1@gmx.net",
+	"features": [
+		"adapter",
+		"vis"
+	],
+	"adminFeatures": [
+		"tab",
+		"custom"
+	],
+	"type": "visualization-icons",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "assumption",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "option1",
+			"defaultValue": true,
+			"inputType": "checkbox"
+		},
+		{
+			"key": "option2",
+			"defaultValue": "42",
+			"inputType": "text"
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"tabReact": "no",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
